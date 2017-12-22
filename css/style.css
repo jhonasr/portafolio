@@ -1,0 +1,120 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header {
+	background-color: rgba(0,0,0,0.3);
+	width: 100%;
+	text-align: center;
+	position: fixed ;
+}
+
+.header ul {
+	display: inline-flex;
+    font-family: 'Bree Serif', serif;
+	font-size: 1em;
+	list-style-type: none;
+}
+
+.header li a {
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+a:hover {
+	background-color: rgba(0,0,0,0.4);
+	padding: 14px;
+}
+
+.section img {
+	width: 100%;
+}
+
+.section1 {
+	width: 100%;
+	background-color: #06406c;
+	text-align: center;
+	color: white;
+	padding: 10px 0 20px;
+	font-family: 'Bree Serif', serif;
+	position: relative;
+	margin-top: -4px;
+}
+
+.section1 h2{
+ 	font-size: 1.5em;	 
+}
+
+.section1 h3{
+ 	font-size: 1.5em;
+ 	font-weight: lighter;
+}
+.section1 p{
+ 	font-size: 1em;
+}
+
+.section2 {
+	padding: 10px 0 20px;
+	background-color: #348fd4;
+	text-align: center;
+	position: relative;
+	
+}
+.section2 h2 {
+	color: #06406c;
+	font-size: 1.5em;
+	font-weight: lighter;
+	font-family: 'Bree Serif', serif;
+	text-shadow: -1px 0 #042640, 0 1px #042640, 1px 0 #042640, 0 -1px #042640;
+}
+.section2 p {
+	font-family: 'Bree Serif', serif;
+	font-size: 1em;
+	color: #042640;
+}
+
+#htmllogo{
+	margin: 10px;
+	height: 100px;
+}
+#Boostraplogo {
+	margin: 10px;
+	height: 100px;
+}
+
+#Rubylogo {
+	height: 90px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+.section3 {
+	text-align: center;
+	color: black;
+	position: relative;
+}
+.section3 {
+	font-family: 'Bree Serif', serif;
+	font-size: 1em;
+}
+
+
+
+
+
+
+@media screen and (max-width: 750px) {
+	.header {
+		flex-direction: column;
+	}
+
+	.container {
+		background-color: red;
+		width: 100%;
+	}
+}
